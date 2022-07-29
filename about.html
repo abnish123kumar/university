@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   
+    <title> University </title>
+</head>
+<body>
+      <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="./image/logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenue()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ourCourses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenue()"></i>
+        </nav>
+       <h1>About Us</h1>
+      </section>
+      <!-- --------about us content-----  -->
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world largest university</h1>
+                <p>Burdwan University started on 15th June, 1960, with Sukumar Sen, an ICS, as its first Vice-chancellor. It was after the abolition of the Zamindari system in the fifties that Uday Chand Mahtab, the last representative of the Burdwan Raj, showed his magnanimity in leaving almost his entire property of Burdwan at the disposal of the state government. This, coupled with the initiative of the then Chief Minister of West Bengal, Dr. Bidhan Chandra Roy, facilitated the establishment of this university. Presently, the administrative works are mostly done at Rajbati (the palace of Barddhamana Maharaja) campus; on the other hand, academic activities center around the Golapbag campus mainly.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+           <div class="about-col">
+            <img src="image/about.jpg" alt="">
+           </div>
+        </div>
+      </section>
+
+<!-- ---------footer---- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Ab illo ipsa ut ratione quasi dignissimos itaque tempora rerum. Iste in nostrum animi, perferendis aut quia numquam quos? Excepturi, a adipisci?</p>
+       <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       </div>
+       <p>Made With <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+      <script>
+         var navLinks = document.getElementById("navLinks");
+
+         function showMenue(){
+            navLinks.style.right = "0";
+         }
+         function hideMenue(){
+            navLinks.style.right = "-200px";
+         }
+      </script>
+</body>
+</html>
